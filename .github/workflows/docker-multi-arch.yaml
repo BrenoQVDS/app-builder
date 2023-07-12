@@ -62,7 +62,7 @@ jobs:
         with:
           # List of Docker Images to use as a base name for tags
           images: |
-            entando/app-builder
+            bqueiroz/app-builder
           # generate Docker tags based on the following events/attributes
           tags: |
             type=schedule
